@@ -26,12 +26,12 @@ let package = Package(
     targets: [
         .binaryTarget(name: "StreamVideo",
                       url: "https://github.com/GetStream/stream-video-swift/releases/download/0.4.1/StreamVideo.zip",
-                      checksum: ""),
+                      checksum: "0123456789"),
         .binaryTarget(name: "StreamVideoSwiftUI",
                       url: "https://github.com/GetStream/stream-video-swift/releases/download/0.4.1/StreamVideoSwiftUI.zip",
-                      checksum: ""),
+                      checksum: "0123456789"),
         .binaryTarget(name: "StreamVideoUIKit",
                       url: "https://github.com/GetStream/stream-video-swift/releases/download/0.4.1/StreamVideoUIKit.zip",
-                      checksum: "")
+                      checksum: "0123456789")
     ]
 )
