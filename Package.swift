@@ -23,15 +23,19 @@ let package = Package(
             targets: ["StreamVideoUIKit"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.18.0")
+    ],
     targets: [
         .binaryTarget(name: "StreamVideo",
-                      url: "https://github.com/GetStream/stream-video-swift/releases/download/0.4.1/StreamVideo.zip",
-                      checksum: "0123456789"),
+                      url: "https://github.com/GetStream/stream-video-swift/releases/download/0.4.0/StreamVideo.zip",
+                      checksum: "0123456789",
+                      dependencies: [.product(name: "SwiftProtobuf", package: "swift-protobuf")]),
         .binaryTarget(name: "StreamVideoSwiftUI",
-                      url: "https://github.com/GetStream/stream-video-swift/releases/download/0.4.1/StreamVideoSwiftUI.zip",
+                      url: "https://github.com/GetStream/stream-video-swift/releases/download/0.4.0/StreamVideoSwiftUI.zip",
                       checksum: "0123456789"),
         .binaryTarget(name: "StreamVideoUIKit",
-                      url: "https://github.com/GetStream/stream-video-swift/releases/download/0.4.1/StreamVideoUIKit.zip",
+                      url: "https://github.com/GetStream/stream-video-swift/releases/download/0.4.0/StreamVideoUIKit.zip",
                       checksum: "0123456789")
     ]
 )
