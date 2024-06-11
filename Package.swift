@@ -29,17 +29,17 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "StreamVideo",
-                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.0.6/StreamVideo.zip",
-                      checksum: "24a40aa696925d48d7b37b522acc8994004afdef9c774913441a78a5e62cddfc",
+                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.0.7/StreamVideo.zip",
+                      checksum: "84e9416efdb68360076dfc553386e1877b25ef7534a8e68d3f5f1af5572b6489",
                       dependencies: [
                           .product(name: "WebRTC", package: "Specs"),
                           .product(name: "SwiftProtobuf", package: "swift-protobuf")
                       ]),
         .binaryTarget(name: "StreamVideoSwiftUI",
-                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.0.6/StreamVideoSwiftUI.zip",
-                      checksum: "164a7ab454443ecb9b7be1094a869a0e0fcb1dfab6d5a513461643a1c1ffc45f"),
+                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.0.7/StreamVideoSwiftUI.zip",
+                      checksum: "39eadf7cab591cadd84cea5e98b708733d65e4bb6288064d3b932b3af3eec8b8"),
         .binaryTarget(name: "StreamVideoUIKit",
-                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.0.6/StreamVideoUIKit.zip",
-                      checksum: "9e0f9edac7ec0373668c8e8750b760e139d243752c925ee8752d1f267cebeb1e")
+                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.0.7/StreamVideoUIKit.zip",
+                      checksum: "5dd2f9430e9f3151b839cfa51b43fb565be0f9bc0b19659a51563eaf5e44a532")
     ]
 )
