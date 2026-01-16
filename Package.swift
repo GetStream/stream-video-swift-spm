@@ -37,13 +37,13 @@ let package = Package(
             ]
         ),
         .binaryTarget(name: "StreamVideo",
-                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.39.0/StreamVideo.zip",
-                      checksum: "a4ac89038d264428936fbd2a2e281b42a64a17cc8fcd0ac4ededcb43610b9142"),
+                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.40.0/StreamVideo.zip",
+                      checksum: "52bbb79e6eeed6d24660b4d06ce4921cf0677309cce7cf0778f42e6c0d9db640"),
         .binaryTarget(name: "StreamVideoSwiftUI",
-                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.39.0/StreamVideoSwiftUI.zip",
-                      checksum: "2d1b1c6b496fdb491cbb3790787ce788b7f4de975b2da67e16ec729454c78cf2"),
+                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.40.0/StreamVideoSwiftUI.zip",
+                      checksum: "5894171bb9a3f4301a4d6e8ea43373ea3d8f5f1200627cf22400f21ce4d0cc00"),
         .binaryTarget(name: "StreamVideoUIKit",
-                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.39.0/StreamVideoUIKit.zip",
-                      checksum: "1640d53f5654b7d09ea3dd542feac93977b10f5f71459ed539af63d52582ece4")
+                      url: "https://github.com/GetStream/stream-video-swift/releases/download/1.40.0/StreamVideoUIKit.zip",
+                      checksum: "ffcca30ee6c57e02fc3edc948424c7b2fd0834fa330be1b6cec4da0dfc8e0b1a")
     ]
 )
